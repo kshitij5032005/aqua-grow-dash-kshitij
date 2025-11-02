@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# 🌿 Aqua Grow Dashboard
 
-## Project info
+A modern **IoT-based smart irrigation and fertigation monitoring dashboard**, designed to help farmers and agricultural researchers track real-time water flow, nutrient dosing, and system clogging detection efficiently.  
 
-**URL**: https://lovable.dev/projects/d890b4be-7169-49e2-9e2b-e5472fb29dfd
+Built using **React + Vite + TypeScript + ShadCN/UI**, this dashboard provides interactive data visualization and an intuitive user interface for monitoring smart farming systems.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🌱 **Real-time Data Display** – Visualize live sensor data for flow rate, EC, pH, and pressure.  
+- 💧 **Fertigation System Monitoring** – Track nutrient levels and detect clogging patterns.  
+- 📊 **Interactive Charts** – Beautiful, dynamic graphs using Recharts.  
+- ⚙️ **Modular Design** – Clean codebase built with reusable components.  
+- 🧠 **Smart Alerts (Future Scope)** – AI/ML-based anomaly detection for early clogging warnings.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d890b4be-7169-49e2-9e2b-e5472fb29dfd) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+| Category | Technologies Used |
+|-----------|-------------------|
+| Frontend | React, TypeScript, Vite |
+| UI Library | ShadCN/UI, Tailwind CSS |
+| Charts | Recharts |
+| Hosting | Vercel |
+| Version Control | Git + GitHub |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📦 Project Setup
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d890b4be-7169-49e2-9e2b-e5472fb29dfd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/kshitij5032005/aqua-grow-dash-kshitij.git
