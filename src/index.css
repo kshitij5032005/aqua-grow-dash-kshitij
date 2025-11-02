@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 120 20% 97%;
+    --foreground: 120 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 120 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 10% 10%;
+
+    --primary: 120 61% 34%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 122 39% 49%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 120 20% 90%;
+    --muted-foreground: 120 10% 40%;
+
+    --accent: 122 39% 49%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --success: 120 61% 34%;
+    --success-foreground: 0 0% 100%;
+
+    --border: 120 20% 85%;
+    --input: 120 20% 85%;
+    --ring: 120 61% 34%;
+
+    --radius: 0.5rem;
+
+    --chart-1: 120 61% 34%;
+    --chart-2: 122 39% 49%;
+    --chart-3: 142 71% 45%;
+    --chart-4: 160 60% 45%;
+    --chart-5: 173 58% 39%;
+  }
+
+  .dark {
+    --background: 120 10% 8%;
+    --foreground: 120 5% 95%;
+
+    --card: 120 10% 10%;
+    --card-foreground: 120 5% 95%;
+
+    --popover: 120 10% 10%;
+    --popover-foreground: 120 5% 95%;
+
+    --primary: 122 39% 49%;
+    --primary-foreground: 120 10% 10%;
+
+    --secondary: 120 10% 20%;
+    --secondary-foreground: 120 5% 95%;
+
+    --muted: 120 10% 20%;
+    --muted-foreground: 120 5% 60%;
+
+    --accent: 120 10% 20%;
+    --accent-foreground: 120 5% 95%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 120 5% 95%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 120 10% 10%;
+
+    --success: 122 39% 49%;
+    --success-foreground: 120 10% 10%;
+
+    --border: 120 10% 20%;
+    --input: 120 10% 20%;
+    --ring: 122 39% 49%;
+
+    --chart-1: 122 39% 49%;
+    --chart-2: 142 71% 45%;
+    --chart-3: 160 60% 45%;
+    --chart-4: 173 58% 39%;
+    --chart-5: 197 37% 24%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
